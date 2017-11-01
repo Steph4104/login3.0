@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+background-color: #e7e7e7;
+}
+
+.mv3{
+font-weight:lighter;
+}
+
+input {
+  max-width: 500px;
+}
+
+.gray {
+
+  color: #828282;
+}
+
+.orange {
+
+  background-color: #8257a9;
+}
+
+.background-gray {
+margin:0;
+position: absolute;
+top: 40%;
+left: 50%;
+margin-right:-50%;
+transform: translate(-50%, -50%);
+background-color: #fff;
+width:30%;
+margin:auto;
+}
+
+.f11 {
+  font-size: 11px;
+}
+
+.w85 {
+  width: 100%;
+
+}
+
+.button {
+font-weight:bold;
+color: #fff;
+text-align:center;
+  background-color: #afafaf;
+clear:both;
+
+margin-bottom:5px;
+  border: none;
+  cursor: pointer;
+padding: 10px 30px;
+}
+
+input[type="text"]{
+padding:10px;
+border:none;
+border:solid 2px #c9c9c9;
+transition: border 0.3s;
+margin-bottom:10px;
+}
+
+input[type="text"]:focus{
+border: solid 2px #969696;
+}
+
+input[type="password"]{
+padding:10px;
+border:none;
+border:solid 2px #c9c9c9;
+transition: border 0.3s;
+}
+
+input[type="password"]:focus{
+border: solid 2px #969696;
+}
+
+.remember{
+float:left;
+margin-left:5%;
+}
+
+.remember input{
+width:13px;
+height:13px;
+padding:0px;
+margin:0px;
+vertical-align:bottom;
+position:relative;
+top: -1px;
+
+}
+.remember label{
+padding-left:5px;
+text-indent:-15px;
+}
+
+.problems{
+float:right;
+}
+
+.problems a {
+color:#1183B0;
+text-decoration:none;
+
+}
+
+.registerLink{
+clear:both;
+}
+
+.register{
+margin-left:5%;
+color:#1183B0;
+}
+
+.noaccount{
+clear:both;
+float:left;
+margin-left:5%;
+}
