@@ -3,8 +3,6 @@ import Link from './Link'
 
 class Search extends Component {
 
-
-
   render() {
     return (
       <div>
@@ -14,11 +12,7 @@ class Search extends Component {
     )
   }
 
-
-
 }
-
-
 
 export default Search
 
